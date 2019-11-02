@@ -1,0 +1,83 @@
+#footer{
+	text-align: center;
+	font-family: "monospace", Andale Mono;
+	color: gray;
+	margin-bottom: 20px;
+}
+
+.tb {
+	z-index: 4;
+	margin-top: -12px;
+	height: 58px;
+	font-family: "monospace", Andale Mono;
+	font-size: 25px;
+	word-spacing: -5px;
+	text-align: center;
+	color: gray;
+	background-color: #533b75;
+}
+
+#logo{
+	float: left;
+	z-index: 5;
+	font-family: "monospace", Andale Mono;
+	font-size: 25px;
+	font-weight: bold;
+	word-spacing: -5px;
+	text-align: center;
+	color: white;
+	padding: 16px 0;
+	height: 26px;
+	width: 250px;
+	display: inline-block;
+	background-color: #8d64c6;
+}
+
+.tb a:hover{
+	color: white;
+}
+
+.tb a {
+	color: gray;
+	float: left;
+	padding: 16px 14px 0 14px;
+	
+}
+
+.tb input {
+	border-radius: 8px;
+	padding: 6px;
+	margin: 16px;
+	border: none;
+	float: right;
+	font: Sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #312740;
+}
+
+.tb a.active {
+	color: orange;
+}
+
+#login {
+	padding-right: 18px;
+	float: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+.content_body {
+	z-index: 2;
+	margin-left: 11vw;
+	margin-right: 11vw;
+	margin-bottom: 90px;
+	min-height: 80vh;
+}
+
+body {
+	z-index: 1;
+}
