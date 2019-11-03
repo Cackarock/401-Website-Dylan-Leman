@@ -7,7 +7,7 @@ class dao {
 	
 	public function getConnection(){
 		try{
-			$connection = new PDO("mysql:host={$this->host};dbname={$this->dbname}",$this->username, $this->password);
+			$connection = new PDO("mysql:host={$this->host};dbname={$this->dbname}", $this->username, $this->password);
 		}catch(Exception $e){
 			echo print_r($e, 1);
 		}
@@ -15,7 +15,7 @@ class dao {
 	}
 	
 	public function isValidUserName($username){
-		$conn = $this->getConnection();
+		//$conn = $this->getConnection();
 		//$stmt = $conn->prepare("SELECT * FROM user WHERE name = ?");
 		//$stmt->blind_param("s", $username);
 		//$stmt->execute();
