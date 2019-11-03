@@ -1,1 +1,1 @@
-<?php include_once("sc_main.html"); ?>
+<?php include_once("sc_main.php"); ?>

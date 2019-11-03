@@ -1,0 +1,15 @@
+<?php
+class dao {
+	private $host = "us-cdbr-iron-east-05.cleardb.net";
+	private $dbname = "heroku_c2700822cb8e597";
+	private $username = "bc23eca8cb3c1e";
+	private $password = "fa187ede";
+	
+	public function getConnection(){
+		try{
+			$connection = new PDO("msql:host={$this->host};dbname={$this->dbname}",$this->username, $this->password);
+		}catch(Exception $e){
+			echo print_r($e, 1);
+		}
+	}
+}

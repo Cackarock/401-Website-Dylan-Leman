@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -10,11 +10,11 @@
 	<body>
  		<div class="content_body">
 			<div class="tb">
-				<a href="sc_main.html" id="logo">THE SIXTH COLOR</a>
-				<a href="sc_decks.html">DECKS</a>
-				<a href="sc_mycards.html">MY CARDS</a>
-				<a href="sc_forums.html">FORUMS</a>
-				<a href="sc_login.html" id="login">SIGN IN</a>
+				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
+				<a href="sc_decks.php">DECKS</a>
+				<a href="sc_mycards.php">MY CARDS</a>
+				<a href="sc_forums.php">FORUMS</a>
+				<a href="sc_login.php" id="login">SIGN IN</a>
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="splitleft">
