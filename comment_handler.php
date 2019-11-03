@@ -12,6 +12,5 @@ if($valid){
 	header("sc_login.php");
 	exit;
 }else{
-	header("sc_login.php");
-	exit;
+	echo "NO";
 }
