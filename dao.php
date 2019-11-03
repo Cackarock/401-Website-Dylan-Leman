@@ -19,8 +19,8 @@ class dao {
 		$stmt = $conn->prepare("SELECT * FROM user WHERE name = :name");
 		$stmt->bindParam(":name", $username);
 		$stmt->execute();
-		$stmt->store_result();
-		if($stmt->num_rows>0){
+		$results = $stmt->fetchAll();
+		if(count($results)>0){
 			return false;
 		}else{
 			return true;
