@@ -11,19 +11,20 @@ class dao {
 		}catch(Exception $e){
 			echo print_r($e, 1);
 		}
+		return $connection;
 	}
 	
 	public function isValidUserName($username){
 		$conn = $this->getConnection();
-		//$stmt = $conn->prepare("SELECT * FROM user WHERE name = ?");
-		//$stmt->blind_param("s", $username);
-		//$stmt->execute();
-		//$stmt->store_result();
-		//if($stmt->num_rows>0){
-		//	return false;
-		//}else{
-		//	return true;
-		//}
+		$stmt = $conn->prepare("SELECT * FROM user WHERE name = ?");
+		$stmt->blind_param("s", $username);
+		$stmt->execute();
+		$stmt->store_result();
+		if($stmt->num_rows>0){
+			return false;
+		}else{
+			return true;
+		}
 	}
 }
 
