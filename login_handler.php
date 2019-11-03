@@ -8,5 +8,5 @@ require_once 'dao.php';
 
 $dba = new dao();
 
-$valid = $dao->isValidUserName($username);
+$valid = $dba->isValidUserName($username);
 
