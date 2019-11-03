@@ -14,6 +14,7 @@ $_SESSION = array();
 
 if($valid){
 	$_SESSION['logged_in'] = true;
+	$_SESSION['user'] = $username;
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_account.php");
 	exit;	
 }else{

@@ -14,7 +14,7 @@
 				<a href="sc_decks.php">DECKS</a>
 				<a href="sc_mycards.php">MY CARDS</a>
 				<a class="active" href="sc_forums.php">FORUMS</a>
-				<a href="sc_login.html" id="login">SIGN IN</a>
+				<a href="sc_login.php" id="login">SIGN IN</a>
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="splitleft">
