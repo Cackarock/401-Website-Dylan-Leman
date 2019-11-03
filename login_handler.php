@@ -6,5 +6,7 @@ $password = $_POST['password'];
 
 require_once 'dao.php';
 
+$dba = new dao();
+
 $valid = $dao->isValidUsername($username);
 
