@@ -17,8 +17,9 @@ class dao {
 	public function isValidUserName($username){
 		$conn = $this->getConnection();
 		$stmt = $conn->prepare("SELECT * FROM user WHERE name = ?");
-		$stmt->blind_param("s", $username);
-		//$stmt->execute();
+		$stmt->blind_param("s", $usr);
+		$usr = $username;
+		$stmt->execute();
 		//$stmt->store_result();
 		//if($stmt->num_rows>0){
 		//	return false;
