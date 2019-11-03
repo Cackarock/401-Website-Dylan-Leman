@@ -14,16 +14,17 @@ class dao {
 		return $connection;
 	}
 	
-	public function isValidUserName($username){
+	public function isValidUser($username, $password){
 		$conn = $this->getConnection();
-		$stmt = $conn->prepare("SELECT * FROM user WHERE name = :name");
+		$stmt = $conn->prepare("SELECT * FROM user WHERE name = :name, password = :password");
 		$stmt->bindParam(":name", $username);
+		$stmt->bindParam(":password", $password);
 		$stmt->execute();
 		$results = $stmt->fetchAll();
-		if(count($results)>0){
-			return false;
-		}else{
+		if(count($results)>1){
 			return true;
+		}else{
+			return false;
 		}
 	}
 }
