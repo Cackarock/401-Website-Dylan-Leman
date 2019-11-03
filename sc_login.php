@@ -19,7 +19,13 @@
 			</div>
 			<div class="square">
 				<div id="temp">SIGN IN</div>
-				<div class="split">SIGN IN</div>
+				<div class="split">
+					<div>SIGN IN</div>
+					<form action="login_handler.php" method="post">
+						<input placeholder="username" type="text" name="username">
+						<input placeholder="password" type="text" name="password">
+						<input type="submit">
+				</div>
 				<hr class="linestyle">
 				<div class="split">REGISTER</div>
 			</div>
