@@ -9,9 +9,9 @@ require_once 'dao.php';
 $valid = $dao->isValidUsername($username);
 
 if($valid){
-	header("sc_login.php");
+	header("https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;
 }else{
-	header("sc_login.php");
+	header("https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;
 }
