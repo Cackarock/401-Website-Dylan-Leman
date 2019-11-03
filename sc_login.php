@@ -1,6 +1,9 @@
 <?php
-	
->
+	if(isset($_SESSION['logged_in'])){
+		header("Location: https://arcane-brook-41995.herokuapp.com/sc_account.php");
+		exit;
+	}
+?>
 <html>
 	<head>
 		<meta charset="UTF-8">
