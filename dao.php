@@ -21,7 +21,7 @@ class dao {
 		$stmt->bindParam(":password", $password);
 		$stmt->execute();
 		$results = $stmt->fetchAll();
-		if(count($results)>1){
+		if(count($results)>0){
 			return true;
 		}else{
 			return false;

@@ -10,10 +10,10 @@ $dba = new dao();
 
 $valid = $dba->isValidUserName($username, $password);
 
-$_SESSION = array();
+//$_SESSION = array();
 
 if($valid){
-	$_SESSION['logged_in'] = true;
+	//$_SESSION['logged_in'] = true;
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_account.php");
 	exit;	
 }else{
