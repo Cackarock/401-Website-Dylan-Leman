@@ -19,12 +19,12 @@ class dao {
 		$stmt = $conn->prepare("SELECT * FROM user WHERE name = :name");
 		$stmt->bindParam(":name", $username);
 		$stmt->execute();
-		//$stmt->store_result();
-		//if($stmt->num_rows>0){
-		//	return false;
-		//}else{
-		//	return true;
-		//}
+		$stmt->store_result();
+		if($stmt->num_rows>0){
+			return false;
+		}else{
+			return true;
+		}
 	}
 }
 
