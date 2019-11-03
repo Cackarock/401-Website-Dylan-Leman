@@ -11,9 +11,9 @@ $dba = new dao();
 $valid = $dba->isValidUserName($username);
 
 if($valid){
-	header("Location: https://arcane-brook-41995.herokuapp.com/sc_main.php");
-	exit;
-}else{
 	
+}else{
+	header("Location: https://arcane-brook-41995.herokuapp.com/sc_main.php");
+	exit;	
 }
 
