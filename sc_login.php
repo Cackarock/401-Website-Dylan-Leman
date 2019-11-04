@@ -28,12 +28,24 @@
 				<div class="split">
 					<div>SIGN IN</div>
 					<form action="login_handler.php" method="post">
-						<input placeholder="username" type="text" name="username">
-						<input placeholder="password" type="text" name="password">
+						<input placeholder="Username" type="text" name="username">
+						<input placeholder="Password" type="password" name="password">
+						<input type="submit">
+					</form>
+				</div>
+					
+				<hr class="linestyle">
+				<div class="split">
+					<div>REGISTER</div>
+					<form action="signup_handler.php" method="post">
+						<input placeholder="Username" type="text" name="username">
+						<input placeholder="Password" type="password" name="password">
+						<input placeholder="Email" type="email" name="email">
+						<input placeholder="First Name" type="text" name="fname">
+						<input placeholder="Last Name" type="text" name="lname">
+						<input placeholder="Age" type="number" name="age">
 						<input type="submit">
 				</div>
-				<hr class="linestyle">
-				<div class="split">REGISTER</div>
 			</div>
 		</div> 
 	</body>

@@ -27,5 +27,22 @@ class dao {
 			return false;
 		}
 	}
+	
+	public function isValidUsername($username){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("SELECT * FROM users WHERE userName = :name");
+		$stmt->bindParam(":name", $username);
+		$stmt->execute();
+		$results = $stmt->fetchAll();
+		if(count($results)>0){
+			return false;
+		}else{
+			return true;
+		}
+	}
+	
+	public function createNewUser($username, $password, $email, $fname, $lname, $age){
+		
+	}
 }
 
