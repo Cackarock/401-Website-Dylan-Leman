@@ -15,6 +15,8 @@ $validUsername = $dba->isValidUsername($username);
 
 $validEmail = preg_match('/\w+@\w+\.[a-zA-Z]{2,4}/', $email);
 
+$_SESSION['form_data'] = $_POST;
+
 if(!$validUsername || strlen($username) == 0){
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;

@@ -18,6 +18,7 @@ if($valid){
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_account.php");
 	exit;	
 }else{
+	$_SESSION['form_data'] = $_POST;
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;	
 }
