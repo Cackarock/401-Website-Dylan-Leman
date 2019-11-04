@@ -30,8 +30,8 @@
 			<div class="splitleft">
 				<div id="temp">MAKE A POST</div>
 				<form action="forum_handler.php" method="post">
-					<input type="text" placeholder="Title" name="title">
-					<input type="text" placeholder="Forum text here..." name="post">
+					<div class="searchbar"><input type="text" placeholder="Title" name="title"></div>
+					<div class="searchbar"><input type="text" placeholder="Forum text here..." name="post"></div>
 					<input type="submit">
 				</form>
 			</div>
