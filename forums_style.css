@@ -59,5 +59,6 @@
         width: 98%;
         font-size: 20px;
         border: 3px solid #8d64c6;
-        padding-left: 13px; 
+        padding-left: 13px;
+	resize: none; 
 }
