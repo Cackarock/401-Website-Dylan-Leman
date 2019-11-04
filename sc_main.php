@@ -30,6 +30,16 @@
 			<div class="splitleft">
 				<div class="searchbar">
 					<input placeholder="Search for decks or cards...">
+				</div>
+				<div>
+					<?php
+						require_once 'dao.php';
+						$dba = new dao();
+						$posts = $dba->getAllPosts();
+						for($i = 0; $i < 3; $i++{
+							echo "<div class=\"forum\"><div id=\"title\">" . $post[$i]['title'] . "</div><div id=\"stamp\">". $post[$i]['username'] . "&nbsp".$post[$i]['created_at'] ."</div><div id=\"post\">" . $post[$i]['post'] . "</div></div>";
+						}
+					?>
 				</div>	
 			</div>
 			<div class="splitright">

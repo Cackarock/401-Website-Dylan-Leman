@@ -70,5 +70,7 @@ class dao {
 		$posts = array_reverse($posts);
 		return $posts;
 	}
+	
+	
 }
 

@@ -42,3 +42,30 @@
         border: 3px solid #8d64c6;
         padding-left: 13px;
 }
+
+.forum{
+        position: relative;
+        border: 2px solid gray;
+        min-height: 200px;
+        margin-top: 14px;
+        padding: 8px;
+        float: right;
+        width: 58%;
+        color: black;
+        font-family: "monospace", Andale Mono;
+        font-size: 12px;
+}
+
+#post{
+        padding: 4px;
+}
+
+#stamp{
+        padding: 4px;
+}
+
+#title{
+        padding: 8px;
+        font-weight: bold;
+        font-size: 26px;
+}
