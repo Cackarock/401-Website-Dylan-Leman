@@ -24,9 +24,9 @@ if(!$validEmail){
 	exit;
 }
 
-$uppercase = preg_match('@[A-Z]@', $password);
-$lowercase = preg_match('@[a-z]@', $password);
-$number    = preg_match('@[0-9]@', $password);
+$uppercase = preg_match('/[A-Z]/', $password);
+$lowercase = preg_match('/[a-z]/', $password);
+$number    = preg_match('/[0-9]/', $password);
 if(!$uppercase || !$lowercase || !$number || strlen($password) < 8){
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;
