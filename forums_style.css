@@ -52,20 +52,14 @@
 }
 
 .searchbar input {
-        border-radius: 8px;
+        border-radius: 8px solid gray;
         padding: 6px;
 	width: 100%;
-	border: none;
         font: Sans-serif;
         font-weight: bold;
         font-size: 15px;
-        color: white;
-	color: inherit;
-        background-color: gray;
-}
-
-.searchbar input::placeholder{
-	color: white;
+        color: black;
+        background-color: white;
 }
 
 textarea{
