@@ -52,14 +52,14 @@
 }
 
 .searchbar input {
-        border-radius: 30px;
+        border-radius: 4px;
         padding: 6px;
 	width: 100%;
         font: Sans-serif;
         font-weight: bold;
         font-size: 15px;
         color: black;
-	border: solid gray;
+	border: 2px solid gray;
         background-color: white;
 }
 
