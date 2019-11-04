@@ -41,13 +41,16 @@
 }
 
 .searchbar input {
+        border-radius: 8px;
+        padding: 6px;
+        margin: 16px;
+        border: none;
+        float: right;
         font: Sans-serif;
         font-weight: bold;
-        height: 35px;
-        width: 98%;
-        font-size: 20px;
-        border: 3px solid #8d64c6;
-        padding-left: 13px;
+        font-size: 15px;
+        color: white;
+        background-color: gray;
 }
 
 textarea{
