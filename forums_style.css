@@ -37,7 +37,7 @@
 
 .searchbar{
         position: relative;
-        top: 55px;
+        margin: 5px;
 }
 
 .searchbar input {
