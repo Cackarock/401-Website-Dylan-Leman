@@ -35,7 +35,16 @@
 					<input type="submit">
 				</form>
 			</div>
-			<div class="splitright">FORUM POSTS GO HERE</div>
+			<div class="splitright">FORUM POSTS GO HERE
+				<?php
+					require_once 'dao'.php';
+					$dba = new dao();
+					$posts = $dba->getAllPosts();
+					foreach($posts as $post){
+						echo "<div class=\"forum\"> TEST <\\div>"		
+					}
+				?>
+			</div>
 		</div> 
 	</body>
 	<div id="footer">THE SIXTH COLOR - DYLAN LEMAN - 2019</div>

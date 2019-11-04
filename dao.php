@@ -61,5 +61,13 @@ class dao {
 		$stmt->bindParam(":post", $post);
 		$stmt->execute();
 	}
+	
+	public function getAllPosts(){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("SELECT * FROM posts ORDER BY created_at");
+		$stmt->execute();
+		$posts = $stmt->fetchAll();
+		return $posts;
+	}
 }
 
