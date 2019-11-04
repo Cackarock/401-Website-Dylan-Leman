@@ -44,6 +44,7 @@
         border-radius: 8px;
         padding: 6px;
         border: none;
+	width: 98%;
         font: Sans-serif;
         font-weight: bold;
         font-size: 15px;
@@ -52,7 +53,7 @@
         background-color: gray;
 }
 
-::placeholder{
+.searchbar input::placeholder{
 	color: white;
 }
 
