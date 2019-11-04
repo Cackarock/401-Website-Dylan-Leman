@@ -61,7 +61,8 @@ textarea{
 	resize: none;
 	height: 425px;
 	margin: 10px;
-	width: 95%;
+	margin-top: -5px;
+	width: 94.5%;
 	color: white;
 	background-color; gray;
 }
