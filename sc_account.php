@@ -30,7 +30,7 @@ if(!isset($_SESSION['logged_in'])){
                                 <input type="text" placeholder="Search...">
                         </div>
 			<div>
-				<button type="button" formaction="https://arcane-brook-41995.herokuapp.com/logout_handler.php">LOG OUT</button>
+				<button type="button" onclick="https://arcane-brook-41995.herokuapp.com/logout_handler.php">LOG OUT</button>
 			</div>
                 </div>
         </body>
