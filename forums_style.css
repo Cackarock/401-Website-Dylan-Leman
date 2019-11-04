@@ -24,6 +24,15 @@
         font-family: "monospace", Andale Mono;
         font-size: 12px;
 }
+
+#post{
+	padding: 8px;
+}
+
+#stamp{
+	padding: 8px;
+}
+
 #title{
 	padding: 8px;
 	font-weight: bold;
