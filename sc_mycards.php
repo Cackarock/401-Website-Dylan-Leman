@@ -1,5 +1,9 @@
 <?php
         session_start();
+	if(!isset($_SESSION['logged_in'])){
+		header("Location: https://arcane-brook-41995.herokuapp.com/sc_login.php");	
+		exit;
+	}
 ?>
 <html>
 	<head>

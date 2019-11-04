@@ -29,6 +29,9 @@ if(!isset($_SESSION['logged_in'])){
 				</a>	
                                 <input type="text" placeholder="Search...">
                         </div>
+			<div>
+				<button type="button" formaction="https://arcane-brook-41995.herokuapp.com/logout_handler.php">LOG OUT</button>
+			</div>
                 </div>
         </body>
         <div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>
