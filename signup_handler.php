@@ -32,7 +32,7 @@ if(!$uppercase || !$lowercase || !$number || strlen($password) < 8){
 	exit;
 }
 
-dba->createNewUser($username, $password, $email, $first, $last, $age);
+//dba->createNewUser($username, $password, $email, $first, $last, $age);
 
 header("Location: https://arcane-brook-41995.herokuapp.com/login_handler.php");
 exit;
