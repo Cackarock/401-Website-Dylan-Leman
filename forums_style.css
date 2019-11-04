@@ -51,5 +51,13 @@
 }
 
 #postBox{
-	height: 100%; 
+	position: relative;
+	margin: 10px;
+	font: Sans-serif;
+	font-weight: bold;
+        height: 35px;
+        width: 98%;
+        font-size: 20px;
+        border: 3px solid #8d64c6;
+        padding-left: 13px; 
 }
