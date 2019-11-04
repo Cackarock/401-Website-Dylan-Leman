@@ -42,7 +42,15 @@ class dao {
 	}
 	
 	public function createNewUser($username, $password, $email, $fname, $lname, $age){
-		
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("INSERT INTO users(email, userName, password, fname, lname, age) VALUES(:email, :username, :password, :fname, :lname, :age);");
+		$stmt->bindParam(":email", $email);
+		$stmt->bindParam(":username", $username);
+		$stmt->bindParam(":password", $password);
+		$stmt->bindParam(":fname", $fname);
+		$stmt->bindParam(":lname", $lname);
+		$stmt->bindParam(":age", $age);
+		$stmt->execute();	
 	}
 }
 
