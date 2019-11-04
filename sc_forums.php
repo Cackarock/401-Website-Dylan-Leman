@@ -37,7 +37,7 @@
 			</div>
 			<div class="splitright">FORUM POSTS GO HERE
 				<?php
-					require_once 'dao'.php';
+					require_once 'dao.php';
 					$dba = new dao();
 					$posts = $dba->getAllPosts();
 					foreach($posts as $post){
