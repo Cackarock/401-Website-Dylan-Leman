@@ -35,7 +35,7 @@
 					<input type="submit">
 				</form>
 			</div>
-			<div class="splitright">FORUM POSTS GO HERE
+			<div class="splitright">
 				<?php
 					require_once 'dao.php';
 					$dba = new dao();
