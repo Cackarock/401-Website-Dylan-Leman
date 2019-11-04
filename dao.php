@@ -52,5 +52,14 @@ class dao {
 		$stmt->bindParam(":age", $age);
 		$stmt->execute();	
 	}
+
+	public function createNewPost($username, $title, $post){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("INSERT INTO posts(username, title, post) VALUES(:username, :title, :post);");
+		$stmt->bindParam(":username", $username);
+		$stmt->bindParam(":title", $title);
+		$stmt->bindParam(":post", $post);
+		$stmt->execute();
+	}
 }
 

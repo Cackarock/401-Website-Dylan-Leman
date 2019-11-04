@@ -29,6 +29,11 @@
 			</div>
 			<div class="splitleft">
 				<div id="temp">MAKE A POST</div>
+				<form action="forum_handler.php" method="post">
+					<input type="text" placeholder="Title" name="title">
+					<input type="text" placeholder="Forum text here..." name="post">
+					<input type="submit">
+				</form>
 			</div>
 			<div class="splitright">FORUM POSTS GO HERE</div>
 		</div> 
