@@ -18,7 +18,7 @@
         min-height: 200px;
         margin-top: 18px;
         float: right;
-        width: 55%;
+        width: 58%;
         color: white;
         font-family: "monospace", Andale Mono;
         font-size: 12px;
@@ -29,15 +29,4 @@
 	background-color: gray;
 	height: 64px;
 	padding: 24px 0 0 18px;
-}
-
-.splitright{
-	text-align: center;
-	color: gray;
-	font-family: "monospace", Andale Mono;
-	font-size: 15px;
-	margin-top: 14px;
-	float: right;
-	width: 60%;
-	height: 200px;
 }
