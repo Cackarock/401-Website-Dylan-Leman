@@ -38,8 +38,8 @@
 				<div class="split">
 					<div>REGISTER</div>
 					<form action="signup_handler.php" method="post">
-						<input value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
-						<input value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
+						<input value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
+						<input value="<?php echo $_SESSION['form_data']['spassword'];?>" placeholder="Password" type="password" name="spassword">
 						<input value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
 						<input value="<?php echo $_SESSION['form_data']['fname'];?>" placeholder="First Name" type="text" name="fname">
 						<input value="<?php echo $_SESSION['form_data']['lname'];?>" placeholder="Last Name" type="text" name="lname">

@@ -2,8 +2,8 @@
 session_start();
 require_once 'dao.php';
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $_POST['susername'];
+$password = $_POST['spassword'];
 $email = $_POST['email'];
 $first = $_POST['fname'];
 $last = $_POST['lname'];
