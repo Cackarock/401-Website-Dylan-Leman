@@ -41,7 +41,8 @@
 					$dba = new dao();
 					$posts = $dba->getAllPosts();
 					foreach($posts as $post){
-						echo "<div class=\"forum\"> TEST <\\div>"		
+						echo "<div class=\"forum\"> TEST <\\div>";		
+
 					}
 				?>
 			</div>
