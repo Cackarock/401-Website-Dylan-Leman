@@ -44,13 +44,16 @@
         border-radius: 8px;
         padding: 6px;
         border: none;
-        float: right;
         font: Sans-serif;
         font-weight: bold;
         font-size: 15px;
         color: white;
 	color: inherit;
         background-color: gray;
+}
+
+::placeholder{
+	color: white;
 }
 
 textarea{
