@@ -31,7 +31,7 @@
 				<div id="temp">MAKE A POST</div>
 				<form action="forum_handler.php" method="post">
 					<div class="searchbar"><input type="text" placeholder="Title" name="title"></div>
-					<div><textarea class="postBox" rows="10" placeholder="Forum text here..." name="post"></textarea></div>
+					<div><textarea placeholder="Forum text here..." name="post"></textarea></div>
 					<input type="submit">
 				</form>
 			</div>
