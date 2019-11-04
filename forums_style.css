@@ -17,11 +17,15 @@
         border: 5px solid gray;
         min-height: 200px;
         margin-top: 18px;
+	padding: 4px;
         float: right;
         width: 58%;
         color: black;
         font-family: "monospace", Andale Mono;
         font-size: 12px;
+}
+#title{
+	font-size: 22px;
 }
 
 #temp{
