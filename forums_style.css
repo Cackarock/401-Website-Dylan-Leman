@@ -16,7 +16,7 @@
         border-radius: 8px;
         border: 5px solid gray;
         min-height: 200px;
-        margin-top: 18px;
+        margin: 18px;
 	padding: 4px;
         float: right;
         width: 58%;
@@ -25,7 +25,8 @@
         font-size: 12px;
 }
 #title{
-	font-size: 22px;
+	font-weight: bold;
+	font-size: 26px;
 }
 
 #temp{
@@ -63,6 +64,6 @@ textarea{
 	margin: 10px;
 	margin-top: 0px;
 	width: 94.5%;
-	color: white;
+	color: gray;
 	background-color; gray;
 }
