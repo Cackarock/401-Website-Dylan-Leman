@@ -37,7 +37,7 @@
 
 .searchbar{
         position: relative;
-        margin: 5px;
+        margin: 10px;
 }
 
 .searchbar input {
@@ -48,4 +48,8 @@
         font-size: 20px;
         border: 3px solid #8d64c6;
         padding-left: 13px;
+}
+
+#postBox{
+	height: 100%; 
 }
