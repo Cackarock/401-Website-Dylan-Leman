@@ -40,7 +40,6 @@
 					require_once 'dao.php';
 					$dba = new dao();
 					$posts = $dba->getAllPosts();
-					$posts = array_reverse($posts);
 					foreach($posts as $post){
 						echo "<div class=\"forum\"><div id=\"title\">" . $post['title'] . "</div><div id=\"stamp\">". $post['username'] . "-".$post['created_at'] ."</div><div id=\"post\">" . $post['post'] . "</div></div>";		
 

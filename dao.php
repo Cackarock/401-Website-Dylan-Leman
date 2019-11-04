@@ -67,6 +67,7 @@ class dao {
 		$stmt = $conn->prepare("SELECT * FROM posts ORDER BY created_at");
 		$stmt->execute();
 		$posts = $stmt->fetchAll();
+		$posts = array_reverse($posts);
 		return $posts;
 	}
 }
