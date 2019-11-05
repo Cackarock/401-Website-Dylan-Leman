@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $title = $_POST['deckTitle'];
 $deck = $_POST['deck'];
 $username = $_SESSION['user'];
