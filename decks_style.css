@@ -33,5 +33,16 @@
 	border: 3px solid #8d64c6;
 	padding-left: 13px;
 }
+.deckTitle{
+	border-radius: 4px;
+        padding: 6px;
+        width: 100%;
+        font: Sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        border: 2px solid gray;
+        background-color: white;
+}
 ~                                                                                                      
 ~          
