@@ -20,10 +20,12 @@
 }
 
 .searchbar{
+	position: relative;
 	top: 55px;
 }
 
 .searchbar input {
+	position: relative;
 	font: Sans-serif;
 	font-weight: bold;
 	height: 35px;
@@ -55,6 +57,7 @@ textarea{
 }
 
 .forum{
+	position: relative;
         border: 2px solid gray;
         min-height: 200px;
         margin-top: 14px;
