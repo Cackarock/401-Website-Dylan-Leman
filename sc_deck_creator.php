@@ -33,9 +33,11 @@
                         </div>
                         <div class="square">
                                 <div id="temp">CREATE A DECK</div>
-				<div><input class="deckTitle" type="text" placeholder="Title" name="title"></div>
-                                <div><textarea placeholder="Forum text here..." name="post"></textarea></div>
-                                <input type="submit">
+				<form action="https://arcane-brook-41995.herokuapp.com/deck_handler.php" method="POST">
+					<div><input class="deckTitle" type="text" placeholder="Title" name="deckTitle"></div>
+                                	<div><textarea placeholder="decklist here, card names separated by a comma..." name="deck"></textarea></div>
+                                	<input type="submit">
+				</form>
                         </div>
                 </div>
         </body>

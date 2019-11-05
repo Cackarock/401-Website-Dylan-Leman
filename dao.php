@@ -71,6 +71,22 @@ class dao {
 		return $posts;
 	}
 	
+	public function createNewDeck($username, $title, $deck){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("INSERT INTO decks(title, post, username) VALUES(:title, :post, :username);");
+		$stmt->bindParam(":title", $title);
+		$stmt->bindParam(":post", $post);
+		$stmt->bindParam(":username",$post);
+		$stmt->execute();
+	}
 	
+	public function getAllDecks(){
+                $conn = $this->getConnection();
+                $stmt = $conn->prepare("SELECT * FROM decks ORDER BY created_at");
+                $stmt->execute();
+                $posts = $stmt->fetchAll();
+                $posts = array_reverse($posts);
+                return $posts;
+        }
 }
 
