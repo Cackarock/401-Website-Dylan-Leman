@@ -30,7 +30,7 @@
 			<div class="square">
 				<div id="temp">DECK SEARCH</div>
 				<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
-					<input type="submit">
+					<input type="submit">create deck</input>
 				</form>
 					
 			</div>
