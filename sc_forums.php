@@ -41,7 +41,7 @@
 					$dba = new dao();
 					$posts = $dba->getAllPosts();
 					foreach($posts as $post){
-						echo "<div class=\"forum\"><div id=\"title\">" . $post['title'] . "</div><div id=\"stamp\">". $post['username'] . "&nbsp".$post['created_at'] ."</div><div id=\"post\">" . $post['post'] . "</div></div>";		
+						echo "<div class=\"forum\"><div id=\"title\">" . htmlspecialchars($post['title']) . "</div><div id=\"stamp\">". htmlspecialchars($post['username']) . "&nbsp". htmlspecialchars($post['created_at']) ."</div><div id=\"post\">" . htmlspecialchars($post['post']) . "</div></div>";		
 
 					}
 				?>

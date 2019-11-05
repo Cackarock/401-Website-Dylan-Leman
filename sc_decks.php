@@ -36,6 +36,15 @@
 			</div>
 			<div class="searchbar">
 				<input placeholder="Search for decks...">
+				<?php
+                                        require_once 'dao.php';
+                                        $dba = new dao();
+                                        $posts = $dba->getAllDecks();
+                                        foreach($posts as $post){
+                                                echo "<div class=\"forum\"><div id=\"title\">" . $htmlspecialchars(post['title']) . "</div><div id=\"stamp\">". htmlspecialchars($post['username']) . "&nbsp". htmlspecialchars($post['created_at']) ."</div><div id=\"post\">" . htmlspecialchars($post['deck']) . "</div></div>";
+
+                                        }
+                                ?>
 			</div>	
 		</div> 
 	</body>
