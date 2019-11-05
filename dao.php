@@ -73,7 +73,7 @@ class dao {
 	
 	public function createNewDeck($username, $title, $deck){
 		$conn = $this->getConnection();
-		$stmt = $conn->prepare("INSERT INTO decks(title, post, username) VALUES(:title, :post, :username);");
+		$stmt = $conn->prepare("INSERT INTO decks(title, deck, username) VALUES(:title, :post, :username);");
 		$stmt->bindParam(":title", $title);
 		$stmt->bindParam(":post", $post);
 		$stmt->bindParam(":username",$post);
