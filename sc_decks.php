@@ -36,6 +36,8 @@
 			</div>
 			<div class="searchbar">
 				<input placeholder="Search for decks...">
+			</div>
+			<div>
 				<?php
                                         require_once 'dao.php';
                                         $dba = new dao();
