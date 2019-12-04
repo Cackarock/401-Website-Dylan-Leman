@@ -32,7 +32,11 @@
 					</form>
 					<hr class="linestyle">
 				</div>
-					
+				<?php
+					if(isset($_SESSION['errormsg'])){
+						echo $_SESSION['errormsg'];
+					}
+				?>
 				<hr class="linestyle">
 				<div id="bsplit">
 					<div id="label">REGISTER</div>

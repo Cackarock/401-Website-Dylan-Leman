@@ -19,6 +19,7 @@ if($valid){
 	exit;	
 }else{
 	$_SESSION['form_data'] = $_POST;
+	$_SESSION['errormsg'] = "Username or password incorrect";
 	header("Location: https://arcane-brook-41995.herokuapp.com/sc_login.php");
 	exit;	
 }
