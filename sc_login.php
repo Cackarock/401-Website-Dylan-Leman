@@ -30,7 +30,7 @@
 						<input class="input" value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
 						<input type="submit">
 					</form>
-					<hr class="lifestyle">
+					<hr class="linestyle">
 				</div>
 					
 				<hr class="linestyle">
