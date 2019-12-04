@@ -26,7 +26,7 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="square">
-				<div id="temp">DECKS</div>
+				<div id="temp2">DECKS</div>
 				
 					
 			</div>
