@@ -28,6 +28,7 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
+			<div class="mBody">
 			<div class="square">
 				<div id="temp2">
 					<?php
@@ -44,6 +45,7 @@
 						}
 					}
 				?>
+			</div>
 			</div>
 		</div> 
 	</body>

@@ -27,6 +27,7 @@ if(!isset($_SESSION['logged_in'])){
 				</a>	
                                 <input type="text" placeholder="Search...">
                         </div>
+			<div class="mBody">
 			<div class="square">
 				<div id="temp2">MY DECKS</div>	
 			</div>
@@ -43,6 +44,7 @@ if(!isset($_SESSION['logged_in'])){
                                 	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['did']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
                                 }
                         ?>
+			</div>
                 </div>
         </body>
         <div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>

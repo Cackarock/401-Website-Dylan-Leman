@@ -28,8 +28,10 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
+			<div class="mBody">
 			<div class="square">
 				<div id="temp2">WELCOME</div>	
+			</div>
 			</div>
 			
 		</div> 

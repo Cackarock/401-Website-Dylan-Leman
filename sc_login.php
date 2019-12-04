@@ -23,6 +23,7 @@
 				<a class="active" href="sc_login.php" id="login">SIGN IN</a>
 				<input type="text" placeholder="Search...">
 			</div>
+			<div class="mBody">
 			<div id="square">
 				<div id="temp">SIGN IN</div>
 				<div id="tsplit">
@@ -50,6 +51,7 @@
 						<input class="input" value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
 						<input type="submit">
 				</div>
+			</div>
 			</div>
 		</div> 
 	</body>

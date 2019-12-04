@@ -29,6 +29,7 @@
                                 </a>
                                 <input type="text" placeholder="Search...">
                         </div>
+			<div class="mBody">
                         <div id="square">
                                 <div id="temp">CREATE A DECK</div>
 				<form action="https://arcane-brook-41995.herokuapp.com/deck_handler.php" method="POST">
@@ -37,6 +38,7 @@
                                 	<button type="submit" id="submit">SUBMIT DECK</button>
 				</form>
                         </div>
+			</div>
                 </div>
         </body>
         <div id="footer">THE SIXTH COLOR - DYLAN LEMAN - 2019</div>
