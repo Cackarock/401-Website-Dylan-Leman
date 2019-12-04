@@ -29,8 +29,9 @@
 				
 			</div>
 			<div class="splitright">
-				<div id="temp">DAILY COMMANDER</div>	
+				<div id="square">DAILY COMMANDER</div>	
 			</div>
+			
 		</div> 
 		<div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>
 	</body>
