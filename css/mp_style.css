@@ -1,9 +1,10 @@
 .deck{
+	padding: 3px;
 	border-collapse: separate;
 	margin: auto;
 	margin-top; 12px;
 	border-radius: 8px;
-	border: 5px solid #8d64c6;
+	border: 2px solid #8d64c6;
 	height: 75px;
 	width: 100%;
 	font-size: 35px;
