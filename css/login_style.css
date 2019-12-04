@@ -1,4 +1,4 @@
-#input {
+.input {
 	display: inline;
 	border-radius: 8px;
 	padding: 6px;
@@ -19,7 +19,7 @@
 	border: 5px solid gray;
 	height: 600px;
 	width: 60%;
-	margin: 12px;
+	margin: auto;
 	background-color: white;
 	color: white;
 	font-family: "monospace", Andale Mono;
