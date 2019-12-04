@@ -51,32 +51,6 @@
 
 }
 
-.searchbar{
-	position: relative;
-	top: 55px;
-}
-
-.searchbar input {
-	position: relative;
-	font: Sans-serif;
-	font-weight: bold;
-	height: 35px;
-	width: 98%;
-	font-size: 20px;
-	border: 3px solid #8d64c6;
-	padding-left: 13px;
-}
-.deckTitle{
-	border-radius: 4px;
-        padding: 6px;
-        width: 100%;
-        font: Sans-serif;
-        font-weight: bold;
-        font-size: 15px;
-        color: black;
-        border: 2px solid gray;
-        background-color: white;
-}
 
 textarea{
 	
@@ -101,18 +75,5 @@ textarea{
         font-size: 12px;
 }
 
-#post{
-        padding: 4px;
-}
-
-#stamp{
-        padding: 4px;
-}
-
-#title{
-        padding: 8px;
-        font-weight: bold;
-        font-size: 26px;
-}
 ~                                                                                                      
 ~          
