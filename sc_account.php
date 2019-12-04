@@ -35,6 +35,14 @@ if(!isset($_SESSION['logged_in'])){
 					<button type="submit" id="button">Log Out</button>
 				</form>
 			</div>
+			<?php
+                                require_once 'dao.php';
+                                $dba = new dao();
+                                $posts = $dba->getAllUserDecks($_SESSION['user']);
+                                foreach($posts as $post){
+                                	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['deckname']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
+                                }
+                        ?>
                 </div>
         </body>
         <div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>

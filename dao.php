@@ -70,5 +70,15 @@ class dao {
                 $posts = array_reverse($posts);
                 return $posts;
         }
+
+	public function getAllUserDecks($username){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("SELECT * FROM decks WHERE BINARY userName = :name");
+		$stmt->bindParam(":name", $username);
+		$stmt->execute();
+		$posts = $stmt->fetchAll();
+                $posts = array_reverse($posts);
+                return $posts;
+	}
 }
 
