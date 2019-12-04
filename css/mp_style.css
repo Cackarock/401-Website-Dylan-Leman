@@ -14,7 +14,7 @@
 	word-spacing: -5px;
 	text-align: center;
 	color: gray;
-	background-color: #533b75;
+	background-color: #2D2837;
 }
 
 #logo{
@@ -79,6 +79,6 @@ a{
 }
 
 body {
-	background-color: #533b75;
+	background-color: #2D2837;
 	z-index: 1;
 }
