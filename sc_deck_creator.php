@@ -18,8 +18,6 @@
                         <div class="tb">
                                 <a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
                                 <a class="active" href="sc_decks.php">DECKS</a>
-                                <a href="sc_mycards.php">MY CARDS</a>
-                                <a href="sc_forums.php">FORUMS</a>
                                 <a href="sc_login.php" id="login">
                                         <?php
                                                 if(isset($_SESSION['user'])){
@@ -36,7 +34,7 @@
 				<form action="https://arcane-brook-41995.herokuapp.com/deck_handler.php" method="POST">
 					<div><input class="input" type="text" placeholder="Title" name="deckTitle"></div>
                                 	<div><textarea placeholder="decklist here, card names separated by a comma..." name="deck"></textarea></div>
-                                	<button type="submit">SUBMIT DECK</button>
+                                	<button type="submit" id="button">SUBMIT DECK</button>
 				</form>
                         </div>
                 </div>

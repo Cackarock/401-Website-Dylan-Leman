@@ -12,12 +12,12 @@
 }
 
 .input {
-	padding-left: 18px;
+	width: 100%;
 	display: inline;
 	border: 1px solid gray;
 	border-radius: 8px;
 	padding: 6px;
-	margin: 16px;
+	margin: auto;
 	font: Sans-serif;
 	font-weight: bold;
 	font-size: 15px;
@@ -55,7 +55,7 @@
         font-size: 35px;
         background-color: gray;
         height: 64px;
-	width: 95%;
+	width: 99%;
         padding: 24px 0 0 18px;
 
 }
