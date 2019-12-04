@@ -13,8 +13,8 @@
 		<title>The Sixth Color</title>
 	</head>
 	<body>
- 		<div class="content_body" class="hidden">
-			<div class="tb">
+ 		<div class="content_body">
+			<div class="tb" class="hidden">
 				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
 				<a class="active" href="sc_decks.php">DECKS</a>
 				<a href="sc_login.php" id="login">
