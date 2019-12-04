@@ -7,10 +7,13 @@
 		<link rel="stylesheet" href="css/mp_style.css">
 		<link rel="stylesheet" href="css/decks_style.css">
 		<link rel='icon' type='image/x-icon/' href='favicon.ico'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    		<script src="js/fade.js" type="text/javascript"></script>
+
 		<title>The Sixth Color</title>
 	</head>
 	<body>
- 		<div class="content_body">
+ 		<div class="content_body" class="hidden">
 			<div class="tb">
 				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
 				<a class="active" href="sc_decks.php">DECKS</a>
