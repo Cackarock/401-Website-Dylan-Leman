@@ -31,7 +31,7 @@
 					
 			</div>
 			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
-				<input type="submit" value="Create Deck">
+				<button type="submit" id="button">CREATE DECK</button>
 			</form>
 			<div>
 				<?php
