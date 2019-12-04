@@ -36,9 +36,12 @@
                                 require_once 'dao.php';
                                 $dba = new dao();
                                 $posts = $dba->getAllDecks();
-				
+				$t = 0;
                                 foreach($posts as $post){
-					
+					if($t == 5){
+						break;
+					}
+					$t++;
                                 	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['did']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
                                 }
                         ?>
