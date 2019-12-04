@@ -20,8 +20,6 @@ if(!isset($_SESSION['logged_in'])){
                         <div class="tb">
                                 <a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
                                 <a href="sc_decks.php">DECKS</a>
-                                <a href="sc_mycards.php">MY CARDS</a>
-                                <a href="sc_forums.php">FORUMS</a>
                                 <a class="active" href="sc_login.php" id="login">
 					<?php
 					echo $_SESSION['user'];
@@ -31,7 +29,7 @@ if(!isset($_SESSION['logged_in'])){
                         </div>
 			<div>
 				<form action="https://arcane-brook-41995.herokuapp.com/logout_handler.php">
-					<button type="submit">Log Out</button>
+					<button type="submit" id="button">Log Out</button>
 				</form>
 			</div>
                 </div>

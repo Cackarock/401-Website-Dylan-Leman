@@ -19,6 +19,7 @@
 .tb {
 	z-index: 4;
 	margin-top: -12px;
+	margin-bot: 12px;
 	height: 58px;
 	font-family: "monospace", Andale Mono;
 	font-size: 25px;
