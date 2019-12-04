@@ -40,9 +40,6 @@
 						<input class="input" value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
 						<input class="input" placeholder="Password" type="password" name="spassword">
 						<input class="input" value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
-						<input class="input" value="<?php echo $_SESSION['form_data']['fname'];?>" placeholder="First Name" type="text" name="fname">
-						<input class="input" value="<?php echo $_SESSION['form_data']['lname'];?>" placeholder="Last Name" type="text" name="lname">
-						<input class="input" value="<?php echo $_SESSION['form_data']['age'];?>" placeholder="Age" type="number" name="age">
 						<input type="submit">
 				</div>
 			</div>

@@ -5,9 +5,6 @@ require_once 'dao.php';
 $username = $_POST['susername'];
 $password = $_POST['spassword'];
 $email = $_POST['email'];
-$first = $_POST['fname'];
-$last = $_POST['lname'];
-$age = $_POST['age'];
 
 $dba = new dao();
 
@@ -35,7 +32,7 @@ if(!$uppercase || !$lowercase || !$number || strlen($password) < 8){
 	exit;
 }
 
-$dba->createNewUser($username, $password, $email, $first, $last, $age);
+$dba->createNewUser($username, $password, $email);
 $_SESSION['logged_in'] = true;
 $_SESSION['user'] = $username;
 header("Location: https://arcane-brook-41995.herokuapp.com/sc_account.php");
