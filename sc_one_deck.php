@@ -39,7 +39,9 @@
 				<?php
 					$cards = explode(",",$deck['decklist']);
 					foreach($cards as $card){
-						
+						if(preg_match('/^[0-9]\ +.*/',$card)){
+							echo "<div>" . $card . "</div>";
+						}
 					}
 				?>
 			</div>
