@@ -27,6 +27,9 @@ if(!isset($_SESSION['logged_in'])){
 				</a>	
                                 <input type="text" placeholder="Search...">
                         </div>
+			<div class="square">
+				<div id="temp2">MY DECKS</div>	
+			</div>
 			<div>
 				<form action="https://arcane-brook-41995.herokuapp.com/logout_handler.php">
 					<button type="submit" id="button">Log Out</button>

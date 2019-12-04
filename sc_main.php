@@ -25,6 +25,9 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
+			<div class="square">
+				<div id="temp2">WELCOME</div>	
+			</div>
 			
 		</div> 
 		<div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>

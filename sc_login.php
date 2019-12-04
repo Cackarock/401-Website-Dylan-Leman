@@ -21,7 +21,7 @@
 				<a class="active" href="sc_login.php" id="login">SIGN IN</a>
 				<input type="text" placeholder="Search...">
 			</div>
-			<div class="square">
+			<div id="square">
 				<div id="temp">SIGN IN</div>
 				<div id="tsplit">
 					<div id="label">SIGN IN</div>
