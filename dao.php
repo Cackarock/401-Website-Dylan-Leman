@@ -16,7 +16,7 @@ class dao {
 	
 	public function isValidUser($username, $password){
 		$conn = $this->getConnection();
-		$stmt = $conn->prepare("SELECT * FROM users WHERE userName like :name and password like :password");
+		$stmt = $conn->prepare("SELECT * FROM users WHERE BINARY userName = :name and password = :password");
 		$stmt->bindParam(":name", $username);
 		$stmt->bindParam(":password", $password);
 		$stmt->execute();
