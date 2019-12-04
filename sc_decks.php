@@ -37,7 +37,7 @@
                                 $dba = new dao();
                                 $posts = $dba->getAllDecks();
                                 foreach($posts as $post){
-                                	echo "<a><div class=\"deck\">" . htmlspecialchars($post['deckname']) . "</div></a>";
+                                	echo "<div class=\"deck\">" . htmlspecialchars($post['deckname']) . "</div>";
                                 }
                         ?>
 			
