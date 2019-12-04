@@ -12,7 +12,7 @@
 }
 
 .input {
-	width: 100%;
+	width: 97%;
 	display: inline;
 	border: 1px solid gray;
 	border-radius: 8px;
@@ -58,6 +58,14 @@
 	height: 64px;
 	padding: 24px 0 0 18px;
 
+}
+
+#temp2{
+	font-size: 35px;
+	background-color: gray;
+	height: 64px;
+	width: 98.5%;
+	padding: 24px 0 0 18px;
 }
 
 .searchbar{
