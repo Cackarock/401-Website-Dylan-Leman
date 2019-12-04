@@ -26,12 +26,13 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="square">
-				<div id="temp">DECK SEARCH</div>
-				<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
-					<input type="submit" value="Create Deck">
-				</form>
+				<div id="temp">DECKS</div>
+				
 					
 			</div>
+			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
+				<input type="submit" value="Create Deck">
+			</form>
 			<div>
 				<?php
                                         require_once 'dao.php';

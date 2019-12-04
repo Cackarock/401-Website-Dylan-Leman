@@ -8,8 +8,8 @@
 <html>
         <head>
                 <meta charset="UTF-8">
-                <link rel="stylesheet" href="mp_style.css">
-                <link rel="stylesheet" href="decks_style.css">
+                <link rel="stylesheet" href="css/mp_style.css">
+                <link rel="stylesheet" href="css/decks_style.css">
                 <link rel='icon' type='image/x-icon/' href='favicon.ico'>
                 <title>The Sixth Color</title>
         </head>
