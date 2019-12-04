@@ -31,17 +31,16 @@
 			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
 				<button type="submit" id="button">CREATE DECK</button>
 			</form>
-			<div>
-				<?php
-                                        require_once 'dao.php';
-                                        $dba = new dao();
-                                        $posts = $dba->getAllDecks();
-                                        foreach($posts as $post){
-                                                echo "<a><div class=\"deck\">" . htmlspecialchars($post{'deckname'}) . "</div></a>";
-
-                                        }
-                                ?>
-			</div>	
+			
+			<?php
+                                require_once 'dao.php';
+                                $dba = new dao();
+                                $posts = $dba->getAllDecks();
+                                foreach($posts as $post){
+                                	echo "<a><div class=\"deck\">" . htmlspecialchars($post['deckname']) . "</div></a>";
+                                }
+                        ?>
+			
 		</div> 
 	</body>
 	<div id="footer">THE SIXTH COLOR - DYLAN LEMAN - 2019</div>
