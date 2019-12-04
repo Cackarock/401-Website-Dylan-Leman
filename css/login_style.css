@@ -1,3 +1,8 @@
+#error{
+	padding-left: 18px;
+	color: red;
+}
+
 #label{
 	padding-left: 18px;
 }
