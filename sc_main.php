@@ -14,8 +14,6 @@
 			<div class="tb">
 				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
 				<a href="sc_decks.php">DECKS</a>
-				<a href="sc_mycards.php">MY CARDS</a>
-				<a href="sc_forums.php">FORUMS</a>
 				<a href="sc_login.php" id="login">
 					<?php
 						if(isset($_SESSION['user'])){

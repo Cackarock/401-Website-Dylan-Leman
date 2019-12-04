@@ -18,8 +18,6 @@
 			<div class="tb">
 				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
 				<a href="sc_decks.php">DECKS</a>
-				<a href="sc_mycards.php">MY CARDS</a>
-				<a href="sc_forums.php">FORUMS</a>
 				<a class="active" href="sc_login.php" id="login">SIGN IN</a>
 				<input type="text" placeholder="Search...">
 			</div>
