@@ -27,7 +27,7 @@
 					<div id="label">SIGN IN</div>
 					<form action="login_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
-						<input class="input" value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
+						<input class="input" placeholder="Password" type="password" name="password">
 						<input type="submit">
 					</form>
 					<hr class="linestyle">
@@ -38,7 +38,7 @@
 					<div id="label">REGISTER</div>
 					<form action="signup_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
-						<input class="input" value="<?php echo $_SESSION['form_data']['spassword'];?>" placeholder="Password" type="password" name="spassword">
+						<input class="input" placeholder="Password" type="password" name="spassword">
 						<input class="input" value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
 						<input class="input" value="<?php echo $_SESSION['form_data']['fname'];?>" placeholder="First Name" type="text" name="fname">
 						<input class="input" value="<?php echo $_SESSION['form_data']['lname'];?>" placeholder="Last Name" type="text" name="lname">
