@@ -1,4 +1,8 @@
 #button{
+	border: none;
+	font-family: "monospace", Andale Mono;
+	font-size: 25px;
+	color: white;
 	width: 200px;
 	height: 75px;
 	background-color: #8d64c6;
