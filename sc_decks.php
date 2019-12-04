@@ -28,7 +28,7 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
-			<div class="square" class="hidden">
+			<div class="square">
 				<div id="temp2">DECKS</div>	
 			</div>
 			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
