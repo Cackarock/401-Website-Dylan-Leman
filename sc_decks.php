@@ -14,7 +14,7 @@
 	</head>
 	<body>
  		<div class="content_body">
-			<div class="tb" class="hidden">
+			<div class="tb">
 				<a href="sc_main.php" id="logo">THE SIXTH COLOR</a>
 				<a class="active" href="sc_decks.php">DECKS</a>
 				<a href="sc_login.php" id="login">
@@ -28,7 +28,7 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
-			<div class="square">
+			<div class="square" class="hidden">
 				<div id="temp2">DECKS</div>	
 			</div>
 			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
