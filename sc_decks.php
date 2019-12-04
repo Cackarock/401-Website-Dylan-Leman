@@ -37,7 +37,7 @@
                                 $dba = new dao();
                                 $posts = $dba->getAllDecks();
                                 foreach($posts as $post){
-                                	echo "<div class=\"deck\">" . htmlspecialchars($post['deckname']) . " Created By - " . htmlspecialchars($post['username']) . "</div>";
+                                	echo "<a><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
                                 }
                         ?>
 			
