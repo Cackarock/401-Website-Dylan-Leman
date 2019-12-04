@@ -24,7 +24,7 @@
 			<div class="square">
 				<div id="temp">SIGN IN</div>
 				<div id="tsplit">
-					<div>SIGN IN</div>
+					<div id="label">SIGN IN</div>
 					<form action="login_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
 						<input class="input" value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
@@ -35,7 +35,7 @@
 					
 				<hr class="linestyle">
 				<div id="bsplit">
-					<div>REGISTER</div>
+					<div id="label">REGISTER</div>
 					<form action="signup_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
 						<input class="input" value="<?php echo $_SESSION['form_data']['spassword'];?>" placeholder="Password" type="password" name="spassword">

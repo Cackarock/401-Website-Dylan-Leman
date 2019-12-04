@@ -1,4 +1,9 @@
+#label{
+	padding-left: 18px;
+}
+
 .input {
+	padding-left: 18px;
 	display: inline;
 	border: 1px solid gray;
 	border-radius: 8px;
