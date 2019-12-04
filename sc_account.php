@@ -13,6 +13,9 @@ if(!isset($_SESSION['logged_in'])){
                 <meta charset="UTF-8">
                 <link rel="stylesheet" href="css/mp_style.css">
                 <link rel="shortcut icon" type="image/x-icon/" href="favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script src="js/fade.js" type="text/javascript"></script>
+
                 <title>The Sixth Color</title>
         </head>
         <body>
