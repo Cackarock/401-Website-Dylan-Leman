@@ -52,24 +52,6 @@ class dao {
 		$stmt->bindParam(":age", $age);
 		$stmt->execute();	
 	}
-
-	public function createNewPost($username, $title, $post){
-		$conn = $this->getConnection();
-		$stmt = $conn->prepare("INSERT INTO posts(username, title, post) VALUES(:username, :title, :post);");
-		$stmt->bindParam(":username", $username);
-		$stmt->bindParam(":title", $title);
-		$stmt->bindParam(":post", $post);
-		$stmt->execute();
-	}
-	
-	public function getAllPosts(){
-		$conn = $this->getConnection();
-		$stmt = $conn->prepare("SELECT * FROM posts ORDER BY created_at");
-		$stmt->execute();
-		$posts = $stmt->fetchAll();
-		$posts = array_reverse($posts);
-		return $posts;
-	}
 	
 	public function createNewDeck($username, $title, $deck){
 		$conn = $this->getConnection();
