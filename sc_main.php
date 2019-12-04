@@ -25,14 +25,6 @@
 				</a>
 				<input type="text" placeholder="Search...">
 			</div>
-			<div class="splitleft">
-				
-			</div>
-			<div class="splitright">
-				<div class="square">
-					<div id="temp">DAILY COMMANDER</div>
-				</div>	
-			</div>
 			
 		</div> 
 		<div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>
