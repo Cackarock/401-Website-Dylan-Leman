@@ -23,7 +23,7 @@
 			</div>
 			<div class="square">
 				<div id="temp">SIGN IN</div>
-				<div class="split">
+				<div id="tsplit">
 					<div>SIGN IN</div>
 					<form action="login_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
@@ -33,7 +33,7 @@
 				</div>
 					
 				<hr class="linestyle">
-				<div class="split">
+				<div id="bsplit">
 					<div>REGISTER</div>
 					<form action="signup_handler.php" method="post">
 						<input class="input" value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">

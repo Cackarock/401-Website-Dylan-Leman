@@ -37,10 +37,17 @@
 	width: 90%;
 }
 
-.split{
+#tsplit{
 	padding-top: 18px;
 	padding-left: 18px;
 	color: black;
 	z-index: 4;
-	height: 28.5%;
+	height: 15.5%;
+}
+
+#bsplit{
+	padding-top: 18px;
+	padding-left: 18px;
+	color: black;
+	z-index: 4;
 }
