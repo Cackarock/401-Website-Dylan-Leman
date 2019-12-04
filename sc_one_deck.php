@@ -36,7 +36,10 @@
 				</div>	
 			</div>
 			<div class="specificd">
-				
+				<?php
+					$cards = explode(",",$deck['decklist']);
+					
+				?>
 			</div>
 		</div> 
 	</body>
