@@ -1,9 +1,8 @@
 .input {
-	display: inline;
-	border-radius: 8px;
+	display: block;
+	border-radius: gray 8px;
 	padding: 6px;
 	margin: 16px;
-	border: gray;
 	font: Sans-serif;
 	font-weight: bold;
 	font-size: 15px;
