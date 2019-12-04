@@ -29,7 +29,8 @@
 #temp2{
 	font-size: 35px;
 	background-color: gray;
-	height: 64px;
+	padding-top: 28px;
+	padding-bottom: 28px;
 }
 
 #button{
