@@ -38,7 +38,9 @@
 			<div class="specificd">
 				<?php
 					$cards = explode(",",$deck['decklist']);
-					
+					foreach($cards as $card){
+						
+					}
 				?>
 			</div>
 		</div> 
