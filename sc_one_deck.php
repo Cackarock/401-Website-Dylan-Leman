@@ -1,5 +1,8 @@
 <?php
         session_start();
+	require_once 'dao.php';
+        $dba = new dao();
+	$deck = $dba->getDeck($_GET['currdeck']);
 ?>
 <html>
 	<head>
@@ -28,9 +31,7 @@
 			<div class="square">
 				<div id="temp2">
 					<?php
-						if(isset($_GET['currdeck'])){
-							echo $_GET['currdeck'];
-						}
+						echo $deck['deckname'];
 					?>
 				</div>	
 			</div>

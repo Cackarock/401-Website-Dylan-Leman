@@ -37,7 +37,7 @@
                                 $dba = new dao();
                                 $posts = $dba->getAllDecks();
                                 foreach($posts as $post){
-                                	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['deckname']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
+                                	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['did']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
                                 }
                         ?>
 			

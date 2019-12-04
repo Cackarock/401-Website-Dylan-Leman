@@ -77,5 +77,14 @@ class dao {
                 $posts = array_reverse($posts);
                 return $posts;
 	}
+
+	public function getDeck($did){
+		$conn = $this->getConnection();
+		$stmt = $conn->prepare("SELECT * FROM decks WHERE did = :id");
+		$stmt->bindParam(":id", $did);
+		$stmt->execute();
+		$post = $stmt->fetch();
+		return $post;
+	}
 }
 
