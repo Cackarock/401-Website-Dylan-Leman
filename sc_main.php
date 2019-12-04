@@ -29,7 +29,9 @@
 				
 			</div>
 			<div class="splitright">
-				<div id="square">DAILY COMMANDER</div>	
+				<div class="square">
+					<div id="temp">DAILY COMMANDER</div>
+				</div>	
 			</div>
 			
 		</div> 
