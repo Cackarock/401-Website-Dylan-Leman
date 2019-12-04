@@ -1,6 +1,5 @@
 <?php
         session_start();
-	echo $_GET['currdeck'];
 ?>
 <html>
 	<head>
@@ -27,10 +26,11 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="square">
-				<div id="temp2"><php?
-					if(isset($_GET['currdeck'])){
-						echo $_GET['currdeck'];
-					}
+				<div id="temp2">
+					<?php
+						if(isset($_GET['currdeck'])){
+							echo $_GET['currdeck'];
+						}
 					?>
 				</div>	
 			</div>
