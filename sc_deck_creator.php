@@ -34,9 +34,9 @@
                         <div class="square">
                                 <div id="temp">CREATE A DECK</div>
 				<form action="https://arcane-brook-41995.herokuapp.com/deck_handler.php" method="POST">
-					<div><input class="deckTitle" type="text" placeholder="Title" name="deckTitle"></div>
+					<div><input class="input" type="text" placeholder="Title" name="deckTitle"></div>
                                 	<div><textarea placeholder="decklist here, card names separated by a comma..." name="deck"></textarea></div>
-                                	<input type="submit">
+                                	<button type="submit">SUBMIT DECK</button>
 				</form>
                         </div>
                 </div>
