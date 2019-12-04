@@ -26,21 +26,13 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="square">
-				<div id="temp2">DECKS</div>	
+				<div id="temp2"><php?
+					if(isset($_GET['currdeck'])){
+						echo $_GET['currdeck'];
+					}
+					?>
+				</div>	
 			</div>
-			<form action="https://arcane-brook-41995.herokuapp.com/sc_deck_creator.php">
-				<button type="submit" id="button">CREATE DECK</button>
-			</form>
-			
-			<?php
-                                require_once 'dao.php';
-                                $dba = new dao();
-                                $posts = $dba->getAllDecks();
-                                foreach($posts as $post){
-                                	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_decks.php?currdeck=" . htmlspecialchars($post['deckname']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
-                                }
-                        ?>
-			
 		</div> 
 	</body>
 	<div id="footer">THE SIXTH COLOR - DYLAN LEMAN - 2019</div>
