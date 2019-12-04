@@ -26,8 +26,8 @@
 				<div class="split">
 					<div>SIGN IN</div>
 					<form action="login_handler.php" method="post">
-						<input value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
-						<input value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
+						<input class="input" value="<?php echo $_SESSION['form_data']['username'];?>" placeholder="Username" type="text" name="username">
+						<input class="input" value="<?php echo $_SESSION['form_data']['password'];?>" placeholder="Password" type="password" name="password">
 						<input type="submit">
 					</form>
 				</div>
@@ -36,12 +36,12 @@
 				<div class="split">
 					<div>REGISTER</div>
 					<form action="signup_handler.php" method="post">
-						<input value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
-						<input value="<?php echo $_SESSION['form_data']['spassword'];?>" placeholder="Password" type="password" name="spassword">
-						<input value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
-						<input value="<?php echo $_SESSION['form_data']['fname'];?>" placeholder="First Name" type="text" name="fname">
-						<input value="<?php echo $_SESSION['form_data']['lname'];?>" placeholder="Last Name" type="text" name="lname">
-						<input value="<?php echo $_SESSION['form_data']['age'];?>" placeholder="Age" type="number" name="age">
+						<input class="input" value="<?php echo $_SESSION['form_data']['susername'];?>" placeholder="Username" type="text" name="susername">
+						<input class="input" value="<?php echo $_SESSION['form_data']['spassword'];?>" placeholder="Password" type="password" name="spassword">
+						<input class="input" value="<?php echo $_SESSION['form_data']['email'];?>" placeholder="Email" type="email" name="email">
+						<input class="input" value="<?php echo $_SESSION['form_data']['fname'];?>" placeholder="First Name" type="text" name="fname">
+						<input class="input" value="<?php echo $_SESSION['form_data']['lname'];?>" placeholder="Last Name" type="text" name="lname">
+						<input class="input" value="<?php echo $_SESSION['form_data']['age'];?>" placeholder="Age" type="number" name="age">
 						<input type="submit">
 				</div>
 			</div>

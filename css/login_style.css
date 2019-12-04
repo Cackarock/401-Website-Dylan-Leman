@@ -1,3 +1,16 @@
+#input {
+	display: inline;
+	border-radius: 8px;
+	padding: 6px;
+	margin: 16px;
+	border: gray;
+	font: Sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: white;
+}
+
 .square {
 	z-index: 5;
 	position: relative;
@@ -6,7 +19,7 @@
 	border: 5px solid gray;
 	height: 600px;
 	width: 60%;
-	Margin: auto;
+	margin: 12px;
 	background-color: white;
 	color: white;
 	font-family: "monospace", Andale Mono;
