@@ -4,8 +4,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="mp_style.css">
-		<link rel="stylesheet" href="main_style.css">
+		<link rel="stylesheet" href="css/mp_style.css">
+		<link rel="stylesheet" href="css/main_style.css">
 		<link rel="shortcut icon" type="image/x-icon/" href="favicon.ico">
 		<title>The Sixth Color</title>
 	</head>
