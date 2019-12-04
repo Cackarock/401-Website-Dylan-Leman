@@ -1,7 +1,5 @@
 .splitright{
 	position: relative;
-        border-radius: 8px;
-        border: 5px solid gray;
         height: 450px;
         margin-top: 14px;
         float: right;
@@ -24,8 +22,6 @@
 	top: 18px;
 	border-radius: 8px;
 	border: 5px solid gray;
-	height: 600px;
-	width: 60%;
 	Margin: auto;
 	background-color: white;
 	color: white;
