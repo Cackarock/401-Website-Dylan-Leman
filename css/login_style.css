@@ -1,6 +1,7 @@
 .input {
 	display: block;
-	border-radius: gray 8px;
+	border: 3px solid gray;
+	border-radius: 8px;
 	padding: 6px;
 	margin: 16px;
 	font: Sans-serif;
@@ -12,11 +13,8 @@
 
 .square {
 	z-index: 5;
-	position: relative;
-	top: 18px;
 	border-radius: 8px;
 	border: 5px solid gray;
-	height: 600px;
 	width: 60%;
 	margin: auto;
 	background-color: white;
