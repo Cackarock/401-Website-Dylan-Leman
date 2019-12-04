@@ -26,17 +26,13 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="splitleft">
-				<div class="searchbar">
-					<input placeholder="Search for decks or cards...">
-				</div>
-				<div>
-						
-				</div>	
+				
 			</div>
 			<div class="splitright">
 				<div id="temp">DAILY COMMANDER</div>	
 			</div>
 		</div> 
+		<div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>
 	</body>
-	<div id="footer"> THE SIXTH COLOR - DYLAN LEMAN - 2019 </div>
+	
 </html>
