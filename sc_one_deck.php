@@ -35,6 +35,16 @@
 					?>
 				</div>	
 			</div>
+			<div class="specificd">
+				<?php
+					$cards = explode(",",$deck['decklist']);
+					foreach($cards as $card){
+						if(preg_match('/^[0-9]\ +.*/',$card)){
+							echo "<div>" . $card . "</div>"
+						}
+					}
+				?>
+			</div>
 		</div> 
 	</body>
 	<div id="footer">THE SIXTH COLOR - DYLAN LEMAN - 2019</div>
