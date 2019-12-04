@@ -32,6 +32,19 @@
 			<div class="square">
 				<div id="temp2">WELCOME</div>	
 			</div>
+			<?php
+                                require_once 'dao.php';
+                                $dba = new dao();
+                                $posts = $dba->getAllDecks();
+				$i = 0
+                                foreach($posts as $post){
+					if($i==5){
+						break;
+					}
+					$i+=1;
+                                	echo "<a href=\"https://arcane-brook-41995.herokuapp.com/sc_one_deck.php?currdeck=" . htmlspecialchars($post['did']) . "\"><div class=\"deck\">" . htmlspecialchars($post['deckname']) . ": Created By " . htmlspecialchars($post['username']) . "</div></a>";
+                                }
+                        ?>
 			</div>
 			
 		</div> 
