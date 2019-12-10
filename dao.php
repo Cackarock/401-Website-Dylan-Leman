@@ -15,6 +15,7 @@ class dao {
 	}
 	
 	public function isValidUser($username, $password){
+		$password = hash("sha256, $password, "akdasdkljgadgasdgalkjasdlkjfas");
 		$conn = $this->getConnection();
 		$stmt = $conn->prepare("SELECT * FROM users WHERE BINARY userName = :name and BINARY password = :password");
 		$stmt->bindParam(":name", $username);
@@ -42,6 +43,7 @@ class dao {
 	}
 	
 	public function createNewUser($username, $password, $email){
+		$password = hash("sha256", $password, "akdasdkljgadgasdgalkjasdlkjfas");
 		$conn = $this->getConnection();
 		$stmt = $conn->prepare("INSERT INTO users(email, userName, password) VALUES(:email, :username, :password);");
 		$stmt->bindParam(":email", $email);
